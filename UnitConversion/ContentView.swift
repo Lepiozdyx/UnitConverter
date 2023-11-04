@@ -15,7 +15,7 @@ struct ContentView: View {
     
     let units = ["Celsius", "Fahrenheit", "Kelvin"]
     
-    var convertedUnits: Double {
+    private var convertedUnits: Double {
         let baseUnit: Double
         
         switch inputUnit {
